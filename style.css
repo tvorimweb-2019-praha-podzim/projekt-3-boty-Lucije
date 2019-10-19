@@ -4,6 +4,7 @@ html { box-sizing: border-box; }
 
 body {
     text-rendering: optimizeLegibility;
+
 }
 
 /*
@@ -21,3 +22,144 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+.zbozi{
+    padding-left: 150px;
+    padding-top: 50px;
+    display: flex;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    
+}
+
+
+
+.vizual{
+background: linear-gradient(#06d7c1, #50cc49);
+width: 335px;
+height: 440px;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+display: flex;
+flex-direction: column;
+align-content: space-between;
+}
+
+.detaily{
+    width: 335px;
+    height: 440px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+  
+}
+
+.bota{
+    margin-left: -80px;
+    margin-top: 0px;
+    
+}
+
+.slogan{
+font-size: 16px;
+font-weight: 500;
+float: left;
+margin-left: 30px;
+margin-top: 0px;
+
+}
+
+.logo{
+   float: left;
+   margin: 30px;
+}
+
+.cenovka{
+    
+    position: absolute; left: 310px; bottom: 110px;
+    
+}
+
+.cena{
+    float: right;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.zaruka{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.nazev{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 500px;
+    margin-right: 30px;
+}
+
+.produkt{
+    margin-left: 30px;
+    margin-top: 0px;
+    color: grey;
+}
+
+.popis{
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #06d7c1;
+}
+
+.parametr{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.velikosti{
+    margin-left: 0px;
+    margin-right: 30px;
+    margin-top: 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.vybrana{
+color: #f15f42;
+border: 1px solid #f15f42;
+border-radius: 100px;
+padding: 8px;
+margin-top: -8px;
+}
+
+.akce{
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+
+
+.tlacitko{
+    border: 1px solid #f15f42;
+    color: white;
+    background:  #f15f42;
+    padding: 12px;
+    border-radius: 10px;
+    text-decoration: none;
+    padding-left:20px;
+    padding-right:20px;
+    box-shadow:1px 1px 1px gray;
+
+    
+
+
+}
